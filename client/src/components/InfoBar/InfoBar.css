@@ -1,0 +1,23 @@
+.infoBar{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(70, 70, 209);
+    height: 60px;
+    border-radius: 6px 6px 0 0 ;
+}
+
+.leftInfoContainer{
+    flex: 0.5;
+    display: flex;
+    color: white;
+    margin-left: 5%;
+    align-items: center;
+}
+.rightInfoContainer{
+    margin-right: 5%;
+}
+.onlineIcon{
+    margin-right: 5%;
+}
